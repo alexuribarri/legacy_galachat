@@ -8,27 +8,43 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="header1">Hello</div>
-        <div class="header2">Yes</div>
+      <div class="logo-container">
+        <div class="col-10"></div>
+        <div class="col-2">
+          <img src="img/logo-chat.gif" alt="Logo">
+        </div>
+      </div>
+        <div class="header1">В Чате ххх человек</div>
+        <div class="header2">Комнаты</div>
         <div class="main">
+          <div class="col-6">
             <div class="rooms">
                 <input type="radio" name="room" value="main" checked=""> <span>Главная (103)</span>
             </div>
+          </div>
+          <div class="col-6">
             <div class="login">
-                Ник : <input type="text" name="name"> <br>
-                Пароль :	<input type="password" name="password">
-                <table>
-                    <table>
-                        <tbody><tr> 
-                          <td><b><font face="Arial Cyr">��� :</font></b></td>
-                          <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                            <input type="radio" name="sex" value="male" checked="">
-                            <b><font face="Arial Cyr">������</font></b><br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                            <input type="radio" name="sex" value="female">
-                            <b><font face="Arial Cyr">�������</font></b> </td>
-                        </tr>
-                      </tbody></table>
+              <div class="credentials">
+                <div class="col-6">
+                  <span>Ник :</span> <br>
+                  <span>Пароль :</span>
+                </div>
+                <div class="col-6">
+                  <input type="text" name="name"> <br>
+                  <input type="password" name="password">
+                </div>
+              </div>
+              <div class="gender">
+                <div class="col-6">
+                  <span class="gend">Пол :</span>
+                </div>
+                <div class="col-6">
+                  <input type="radio" name="sex" value="male" checked=""> <span>Ребята</span> <br>
+                  <input type="radio" name="sex" value="female"> <span>Девушки</span>
+                </div>
+              </div>
+               
+                   
 
                     <tbody><tr> 
                       <td><b><font face="Arial Cyr">���� :</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -82,6 +98,7 @@
               </tr>
             </tbody></table>
             </div>
+          </div>
         </div>
 
     </div>
