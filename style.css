@@ -1,0 +1,23 @@
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header1 {
+    margin-top: 150px;
+    background-color: chocolate;
+}
+.header2 {
+    background-color: coral;
+}
+
+.main {
+    display: flex;
+}
+.rooms {
+    padding: 5px;
+}
+
+.login {
+    padding: 5px;
+}
